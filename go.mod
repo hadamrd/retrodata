@@ -1,4 +1,4 @@
-module github.com/kralamoure/retro
+module github.com/hadamrd/retrodata
 
 go 1.16
 
