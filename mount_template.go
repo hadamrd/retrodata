@@ -1,6 +1,6 @@
 package retro
 
-import "github.com/kralamoure/retro/retrotyp"
+import "github.com/hadamrd/retrodata/retrotyp"
 
 var MountTemplateIdByMountCertificateId = map[int]int{
 	7808: 3,

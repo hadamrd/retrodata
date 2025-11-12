@@ -3,7 +3,7 @@ package retro
 import (
 	"time"
 
-	"github.com/kralamoure/retro/retrotyp"
+	"github.com/hadamrd/retrodata/retrotyp"
 )
 
 type Item struct {

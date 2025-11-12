@@ -5,7 +5,7 @@ import (
 	"errors"
 	"time"
 
-	"github.com/kralamoure/retro/retrotyp"
+	"github.com/hadamrd/retrodata/retrotyp"
 )
 
 var ErrNotFound = errors.New("not found")

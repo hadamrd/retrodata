@@ -3,7 +3,7 @@ package retro
 import (
 	validation "github.com/go-ozzo/ozzo-validation/v4"
 
-	"github.com/kralamoure/retro/retrotyp"
+	"github.com/hadamrd/retrodata/retrotyp"
 )
 
 type ItemTemplate struct {

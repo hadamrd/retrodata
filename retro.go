@@ -1,7 +1,7 @@
 // Package retro is a core library for Dofus Retro. It declares data types and
 // provides constants and functions to work with the game. It also declares the
 // Storer interface implemented in package retropg
-// (https://github.com/kralamoure/retropg).
+// (https://github.com/hadamrd/retrodatapg).
 package retro
 
 import (
@@ -10,7 +10,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/kralamoure/retro/retrotyp"
+	"github.com/hadamrd/retrodata/retrotyp"
 )
 
 func DecodeItemEffects(sli []string) (effects []retrotyp.Effect, err error) {

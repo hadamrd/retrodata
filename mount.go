@@ -3,7 +3,7 @@ package retro
 import (
 	"time"
 
-	"github.com/kralamoure/retro/retrotyp"
+	"github.com/hadamrd/retrodata/retrotyp"
 )
 
 var MountXPFloors = []int{600, 1_750, 2_750, 4_000, 5_500, 7_250, 9_250, 11_500, 14_000, 16_750, 19_750, 23_000, 26_500,

@@ -5,7 +5,7 @@ import (
 
 	validation "github.com/go-ozzo/ozzo-validation/v4"
 
-	"github.com/kralamoure/retro/retrotyp"
+	"github.com/hadamrd/retrodata/retrotyp"
 )
 
 var CharacterXPFloors = []int{110, 650, 1_500, 2_800, 4_800, 7_300, 10_500, 14_500, 19_200, 25_200, 32_600, 41_000,

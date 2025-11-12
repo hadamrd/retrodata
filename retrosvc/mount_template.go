@@ -3,7 +3,7 @@ package retrosvc
 import (
 	"context"
 
-	"github.com/kralamoure/retro"
+	retro "github.com/hadamrd/retrodata"
 )
 
 func (svc Service) MountTemplates(ctx context.Context) (map[int]retro.MountTemplate, error) {

@@ -3,8 +3,8 @@ package retrosvc
 import (
 	"context"
 
-	"github.com/kralamoure/retro"
-	"github.com/kralamoure/retro/retrotyp"
+	retro "github.com/hadamrd/retrodata"
+	"github.com/hadamrd/retrodata/retrotyp"
 )
 
 func (svc Service) Classes(ctx context.Context) (map[retrotyp.ClassId]retro.Class, error) {

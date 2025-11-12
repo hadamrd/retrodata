@@ -5,7 +5,7 @@ import (
 
 	validation "github.com/go-ozzo/ozzo-validation/v4"
 
-	"github.com/kralamoure/retro"
+	retro "github.com/hadamrd/retrodata"
 )
 
 func (svc Service) CreateCharacterItem(ctx context.Context, item retro.CharacterItem) (int, error) {

@@ -3,7 +3,7 @@ package retrosvc
 import (
 	"errors"
 
-	"github.com/kralamoure/retro"
+	retro "github.com/hadamrd/retrodata"
 )
 
 type Config struct {

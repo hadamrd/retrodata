@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/kralamoure/retro"
+	retro "github.com/hadamrd/retrodata"
 )
 
 func (svc Service) CreateTicket(ctx context.Context, t retro.Ticket) (string, error) {

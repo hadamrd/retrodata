@@ -3,7 +3,7 @@ package retrosvc
 import (
 	"context"
 
-	"github.com/kralamoure/retro"
+	retro "github.com/hadamrd/retrodata"
 )
 
 func (svc Service) Markets(ctx context.Context) (map[string]retro.Market, error) {

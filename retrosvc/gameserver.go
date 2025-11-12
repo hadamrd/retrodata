@@ -5,8 +5,8 @@ import (
 
 	validation "github.com/go-ozzo/ozzo-validation/v4"
 
-	"github.com/kralamoure/retro"
-	"github.com/kralamoure/retro/retrotyp"
+	retro "github.com/hadamrd/retrodata"
+	"github.com/hadamrd/retrodata/retrotyp"
 )
 
 func (svc Service) CreateGameServer(ctx context.Context, gameServer retro.GameServer) error {

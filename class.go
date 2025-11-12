@@ -1,6 +1,6 @@
 package retro
 
-import "github.com/kralamoure/retro/retrotyp"
+import "github.com/hadamrd/retrodata/retrotyp"
 
 type Class struct {
 	Id               retrotyp.ClassId

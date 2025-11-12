@@ -1,6 +1,6 @@
 package retro
 
-import "github.com/kralamoure/retro/retrotyp"
+import "github.com/hadamrd/retrodata/retrotyp"
 
 type Spell struct {
 	Id          int

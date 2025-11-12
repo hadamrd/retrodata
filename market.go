@@ -1,7 +1,7 @@
 package retro
 
 import (
-	"github.com/kralamoure/retro/retrotyp"
+	"github.com/hadamrd/retrodata/retrotyp"
 )
 
 type Market struct {
