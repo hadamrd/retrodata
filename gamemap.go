@@ -1,7 +1,5 @@
 package retro
 
-import "github.com/kralamoure/retroutil"
-
 type GameMap struct {
 	Id            int
 	Name          string
@@ -22,17 +20,17 @@ type GameMapPath struct {
 	Dir    int
 }
 
-func (m GameMap) Cells() ([]retroutil.Cell, error) {
-	utilCells, err := retroutil.DecompressCells(m.Data, false)
+func (m GameMap) Cells() ([]Cell, error) {
+	utilCells, err := DecompressCells(m.Data, false)
 	if err != nil {
 		return nil, err
 	}
 
-	builtCells := retroutil.BuiltCells(nil, false, m.Width, utilCells)
+	builtCells := BuiltCells(nil, false, m.Width, utilCells)
 
-	cells := make([]retroutil.Cell, len(builtCells))
+	cells := make([]Cell, len(builtCells))
 	for i, v := range builtCells {
-		cells[i] = retroutil.Cell{
+		cells[i] = Cell{
 			Id:                             v.Id,
 			Active:                         v.Active,
 			LineOfSight:                    v.LineOfSight,
